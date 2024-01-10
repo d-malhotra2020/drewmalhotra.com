@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.construction-container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ff4500;
+    font-size: 3em;
+}
+
+#bulldozer {
+    width: 50%;
+    margin-top: 20px;
+}
