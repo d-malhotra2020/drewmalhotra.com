@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     text-align: center;
     background-color: #000000;
 }
@@ -11,6 +11,15 @@ body {
 h1 {
     color: #053ef8;
     font-size: 3em;
+}
+
+h2 {
+    color: #053ef8;
+    font-size: 2em
+}
+h3 {
+    color: #053ef8;
+    font-size: 1em
 }
 
 #bulldozer {
