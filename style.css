@@ -3,10 +3,13 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #333333;
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+h2  {
+    text-align: center;
 }
 .center {
     display: block;
@@ -16,7 +19,7 @@ header {
 }
 
 #projects {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     background-color: #f2f2f2;
 }
@@ -28,9 +31,17 @@ footer {
     padding: 10px 0;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
+a:link, a:visited {
+    color: white; /* Or any color you prefer */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+a:hover {
+    color: green; /* Color when the mouse hovers over the link */
+}
+
+a:active {
+    color: red; /* Color when the link is being clicked */
 }
 
 footer a:hover {

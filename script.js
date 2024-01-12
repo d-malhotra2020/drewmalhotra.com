@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var projects = [
-        { name: 'Project 1', description: 'Description of project 1', link: 'http://link-to-project1.com' },
+        // { name: 'Project 1', description: 'Description of project 1', link: 'http://link-to-project1.com' },
         // Add more projects here
     ];
 
