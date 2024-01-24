@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var videoPlayer = document.getElementById('videoPlayer');
-    var videos = ['rocket_launch.mp4', 'satellite.mp4', 'CIA.mp4', 'hubble_telescope.mp4', 'codingprogramming.mp4', 'coding.mp4', 'algorithm.mp4'];
+    var videos = ['VideoFiles/rocket_launch.mp4', 'VideoFiles/satellite.mp4', 'VideoFiles/CIA.mp4',
+        'VideoFiles/hubble_telescope.mp4', 'VideoFiles/codingprogramming.mp4', 'VideoFiles/coding.mp4', 'VideoFiles/algorithm.mp4'];
     var currentVideoIndex = 0;
 
     videoPlayer.src = videos[currentVideoIndex]; // Set initial source
